@@ -1,0 +1,47 @@
+            QMainWindow {
+                background-color: #0a0a12;
+            }
+            QGroupBox {
+                color: #00f3ff;
+                border: 2px solid #2a2a4a;
+                border-radius: 8px;
+                margin-top: 20px;
+                padding-top: 15px;
+                background-color: rgba(16, 16, 32, 0.8);
+            }
+            QComboBox {
+                background-color: #1a1a2a;
+                color: #00f3ff;
+                border: 1px solid #2a2a4a;
+                border-radius: 4px;
+                padding: 5px;
+            }
+            QPushButton {
+                background-color: #1a1a2a;
+                color: #00f3ff;
+                border: 1px solid #2a2a4a;
+                border-radius: 4px;
+                padding: 8px 16px;
+            }
+            QPushButton:hover {
+                background-color: #2a2a4a;
+                border: 1px solid #00f3ff;
+            }
+            QLineEdit, QTextEdit {
+                background-color: #1a1a2a;
+                color: #00f3ff;
+                border: 1px solid #2a2a4a;
+                border-radius: 4px;
+                padding: 8px;
+                font: 14px "Consolas";
+            }
+            QTextEdit {
+                background-color: #0a0a12;
+            }
+            QLabel {
+                color: #00f3ff;
+            }
+            * {
+                font-family: "Orbitron";
+                font-size: 10pt;
+            }
